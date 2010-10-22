@@ -1,7 +1,7 @@
 === ABDUL TAG Widget ===
 Contributors: social tagging,information,call center,faq
 Tags:  widget,information,call center,faq, social tagging,WordPress.com
-Stable tag: trunk
+Stable tag: 0.1
 Requires at least: 2.8
 Tested up to: 3.0
 
