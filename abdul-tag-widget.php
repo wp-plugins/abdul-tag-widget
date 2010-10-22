@@ -3,7 +3,7 @@
 Plugin Name: ABDUL TAG Widget
 Plugin URI: http://wordpress.org/extend/plugins/abdul-tag-widget
 Description: search for ABDUL social tagging system
-Version: 0.1
+Version: 0.3
 Author: DreamBuilder Inc.
 Author URI: http://conan.in.th/
 */
