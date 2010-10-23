@@ -3,7 +3,7 @@
 Plugin Name: ABDUL TAG Widget
 Plugin URI: http://wordpress.org/extend/plugins/abdul-tag-widget
 Description: search for ABDUL social tagging system
-Version: 0.3
+Version: 0.3.1
 Author: DreamBuilder Inc.
 Author URI: http://conan.in.th/
 */
@@ -38,7 +38,7 @@ class ABDUL_TAG_Widget extends WP_Widget {
 <script type="text/javascript">
 var handleEvent = {
 		start:function(eventType, args){
-		document.getElementById('tagresult').innerHTML = "waiting...";
+		document.getElementById('tagresult').innerHTML = "<img src=<?php echo WP_PLUGIN_URL;?>/abdul-tag-widget/images/wait.gif>";
 		},
 
 		complete:function(eventType, args){
@@ -92,6 +92,11 @@ var handleEvent = {
 		}
 		
 	}
+
+	function tdosearch(t){
+		document.getElementById("qsearch").value=t;
+		dosearch();
+}
 
 </script>
 <center>
