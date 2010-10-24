@@ -38,7 +38,7 @@ class ABDUL_TAG_Widget extends WP_Widget {
 <script type="text/javascript">
 var handleEvent = {
 		start:function(eventType, args){
-		document.getElementById('tagresult').innerHTML = "<img src=<?php echo WP_PLUGIN_URL;?>/abdul-tag-widget/images/wait.gif>";
+		document.getElementById('tagresult').innerHTML = "<center><img src=<?php echo WP_PLUGIN_URL;?>/abdul-tag-widget/images/wait.gif></center>";
 		},
 
 		complete:function(eventType, args){
