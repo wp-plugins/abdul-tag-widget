@@ -6,7 +6,7 @@ Requires at least: 2.8
 Tested up to: 3.0
 
 == Description ==
-for any users who want to know everything about Organization, 
+for any users who want to know everything about NSTDA http://www.nstda.or.th, 
 they can search for information and able to install this plugin to their website
 
 == Installation ==
